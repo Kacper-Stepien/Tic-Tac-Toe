@@ -7,17 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
     <title>Tic Tac Toe</title>
 </head>
 
 <body>
     <main>
         <nav>
+            <button class="restart-button" id="restart-button">Restart</button>
             <div id="title">Tic Tac Toe</div>
-            <div id="message"></div>
+            <div class="message hidden-message" id="message">x</div>
         </nav>
-        <div class="board x" id="board">
-            <div class="cell x" data-cell></div>
+        <div class="board" id="board">
             <div class="cell" data-cell></div>
             <div class="cell" data-cell></div>
             <div class="cell" data-cell></div>
@@ -25,7 +26,8 @@
             <div class="cell" data-cell></div>
             <div class="cell" data-cell></div>
             <div class="cell" data-cell></div>
-            <div class="cell circle" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
         </div>
     </main>
 </body>
