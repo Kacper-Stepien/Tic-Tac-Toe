@@ -6,16 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
     <title>Tic Tac Toe</title>
 </head>
 
 <body>
     <main>
         <nav>
-            <div class="title">Tic Tac Toe</div>
-            <div class="message"></div>
+            <div id="title">Tic Tac Toe</div>
+            <div id="message"></div>
         </nav>
-        <div class="board">
+        <div class="board x" id="board">
+            <div class="cell x" data-cell></div>
             <div class="cell" data-cell></div>
             <div class="cell" data-cell></div>
             <div class="cell" data-cell></div>
@@ -23,8 +25,7 @@
             <div class="cell" data-cell></div>
             <div class="cell" data-cell></div>
             <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
-            <div class="cell" data-cell></div>
+            <div class="cell circle" data-cell></div>
         </div>
     </main>
 </body>
